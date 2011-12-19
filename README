@@ -6,3 +6,4 @@ marks string in script.
 
 Bindings can be changed in the script.
 
+Requires Vim 7.x compiled with Python support.
