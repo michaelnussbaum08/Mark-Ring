@@ -32,6 +32,7 @@ def next_mark(forward=True, call_count=0):
         next_mark(forward=forward, call_count=call_count+1)
     else:
         found_any = True
+        print "Mark:", marks[next_index]
         vim.current.window.cursor = mark_loc
 
 def advance_index(step):
